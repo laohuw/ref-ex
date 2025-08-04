@@ -1,0 +1,40 @@
+
+server:
+  port: ${port:9090}
+  servlet:
+    context-path: /server
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level -[%X{traceId}:%X{spanId}]- %logger{36} - %msg%n"
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    com.algo.sbapp: DEBUG
+
+otel:
+  propagators:
+    - tracecontext
+    - baggage
+#    - b3
+  resource:
+    attributes:
+      service:
+        name: sb3_otel
+        namespace: pilot
+      deployment.environment: dev
+  traces:
+    exporter: otlp
+  logs:
+    exporter: otlp
+#  metrics:
+#    exporter: otlp
+  exporter:
+    otlp:
+      protocol: grpc
+      endpoint: http://localhost:4317
+#      traces:
+#        endpoint: http://localhost:4317
+#      metrics:
+#        endpoint: http://localhost:9090
+#      logs:
+#        endpoint: http://localhost:3100

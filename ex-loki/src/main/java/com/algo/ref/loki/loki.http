@@ -1,0 +1,11 @@
+POST http://10.152.183.47:3100/loki/api/v1/push
+Content-Type: application/json
+
+{"streams": [{"stream": {"app": "demo", "values": [1,2,3]}}]}
+
+###
+GET https://online.stat.psu.edu/statprogram/reviews/statistical-concepts/terminology
+
+###
+POST http://10.152.183.47:3100/loki/api/v1/push
+

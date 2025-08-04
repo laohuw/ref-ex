@@ -1,0 +1,21 @@
+plugins {
+    id 'groovy'
+}
+
+group 'com.algo.ref.ex'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.slf4j:slf4j-log4j12:2.0.9'
+    implementation 'log4j:log4j:1.2.17'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}

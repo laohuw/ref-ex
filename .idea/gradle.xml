@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ex-features" />
+            <option value="$PROJECT_DIR$/ex-jaas" />
+            <option value="$PROJECT_DIR$/ex-kafka" />
+            <option value="$PROJECT_DIR$/ex-loki" />
+            <option value="$PROJECT_DIR$/ex-netty" />
+            <option value="$PROJECT_DIR$/ex-nio" />
+            <option value="$PROJECT_DIR$/ex-socket" />
+            <option value="$PROJECT_DIR$/ex-webflux" />
+            <option value="$PROJECT_DIR$/ex_observ" />
+            <option value="$PROJECT_DIR$/tech-ex" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ex-crypto" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ex-crypto" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ex-mtls" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ex-mtls" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ex-oauth2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ex-oauth2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ex_spring_gateway" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ex_spring_gateway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -13,4 +13,8 @@ include 'ex-socket', 'ex-netty'
 include 'ex-nio', 'ex-jaas'
 include 'ex-webflux'
 include 'ex-kafka'
+include 'tech-ex'
+include 'ex-loki'
+include 'ex-features'
+include 'ex_observ'
 

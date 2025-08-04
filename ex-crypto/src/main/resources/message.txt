@@ -1,0 +1,1 @@
+As we have seen, the digital signature is based on hashing and encryption.
